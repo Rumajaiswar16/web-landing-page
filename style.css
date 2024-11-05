@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-cantainer{
+    top: 0;
+    position: sticky;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vw;
+}
+
+#navlogo{
+   font-size: 3vw;
+   color: white;
+}
+
+#navlist ul {
+    list-style: none;
+    gap: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+#navlist ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+
+#homepg{
+    height: 100vh;
+    width: 100%;
+}
+
+#homepg h1 {
+    font-size: 5vw;
+    text-decoration: underline;
+    padding: 3vw;
+    text-align: center;
+}
+
+p{
+    font-size: 2vw;
+    margin: 3vw;
+    text-align:initial;
+}
+
+#navlist ul li a:hover{
+    border-radius: 1vw;
+    padding: 0.5vw;
+    background-color: #6700c6;
+    color: #ffffff;
+}
+
+#nav-cantainer.scrolled {
+    background-color: #15a6a6 !important;
+  }
+  
